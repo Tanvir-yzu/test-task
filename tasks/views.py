@@ -8,3 +8,6 @@ def manager_dashboard(request):
     return render(request, 'admin-dashboard.html')
 def user_dashboard(request):
     return render(request, 'user-dashboard.html')
+
+def about(request):
+    return render(request, 'about.html')
