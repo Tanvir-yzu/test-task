@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/output.css' %}">
     
 <body>
-    <h1>Welcome home</h1>
+    <h1 class=" flex text-center text-2xl">Welcome home</h1>
     {% if user.is_authenticated %}
         {{user}}
         <form action="{% url 'logout' %}" method="POST">
